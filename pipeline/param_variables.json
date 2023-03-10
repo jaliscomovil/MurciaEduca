@@ -1,0 +1,77 @@
+{
+	"name": "param_variables",
+	"properties": {
+		"activities": [
+			{
+				"name": "SetNombre",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "SetNombre",
+					"value": "Pablo"
+				}
+			},
+			{
+				"name": "SetEdad",
+				"description": "",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "SetEdad",
+					"value": "46"
+				}
+			},
+			{
+				"name": "SetCuenta",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "SetCuenta",
+					"value": "pablo.fernandez@gmail.com"
+				}
+			},
+			{
+				"name": "SetActivo",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "SetActivo",
+					"value": true
+				}
+			}
+		],
+		"parameters": {
+			"Nombre": {
+				"type": "string"
+			},
+			"Edad": {
+				"type": "int"
+			},
+			"Cuenta": {
+				"type": "float"
+			},
+			"Activo": {
+				"type": "bool"
+			}
+		},
+		"variables": {
+			"SetNombre": {
+				"type": "String"
+			},
+			"SetEdad": {
+				"type": "String"
+			},
+			"SetCuenta": {
+				"type": "String"
+			},
+			"SetActivo": {
+				"type": "Boolean"
+			}
+		},
+		"annotations": []
+	}
+}
